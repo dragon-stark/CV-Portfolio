@@ -609,7 +609,7 @@ strong {
 .section-home {
   height: 100vh;
   position: relative;
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/snowy-summit.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -911,7 +911,7 @@ strong {
 /* ---------------------------------------------- */
 
 .section-freelance {
-  background: url(../images/freelance.jpg);
+  background: url(../images/snowy-summit.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
