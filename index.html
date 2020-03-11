@@ -13,14 +13,14 @@
       content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard"
     />
     <meta name="author" content="Elizabeth-" />
-    <meta name="theme-color" content="#2a2d35" />
+    <meta name="theme-color" content="#28a745" />
 
     <!-- Vendor Css-->
     <link rel="stylesheet" href="assets/css/vendor.css" />
 
     <!--  style Css -->
-    <!-- <link href="assets/css/CV-light.css" rel="stylesheet"> -->
-    <link href="assets/css/CV-dark.css" rel="stylesheet" />
+    <!-- <link href="assets/css/light.css" rel="stylesheet"> -->
+    <link href="assets/css/dark.css" rel="stylesheet" />
 
     <!-- Custom style Css -->
     <link href="assets/css/custom.css" rel="stylesheet" />
@@ -38,11 +38,7 @@
     <!-- START: Theme Switcher -->
 
     <div class="switcher">
-      <a
-        href="https://dragon-stark.github.io/CV-Portfolio-light/"
-        data-theme="light"
-        >deed</a
-      >
+      <a href="#" data-theme="light">deed</a>
     </div>
 
     <!-- END: Theme Switcher -->
@@ -93,9 +89,9 @@
                 <a class="nav-link" href="#work">Portfolio</a>
               </li>
 
-              <!-- <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
-                        </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
@@ -131,8 +127,10 @@
     <div class="page-wrapper">
       <!-- START: HOME -->
       <section class="section-home " id="home">
-        <div class="glass">Elizabeth</div>
+        <div class="glass">Elizabeth H.</div>
         <img src="assets/images/snowy-summit.jpg" />
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
       </section>
       <!-- END: HOME -->
 
@@ -147,13 +145,13 @@
           <div class="row justify-content-center align-items-center">
             <div class="col-md-5">
               <img
-                class="img-fluid img-thumbnail"
+                class="img-fluid img-thumbnail wow fadeInUp"
                 src="assets/images/authorimg.png"
                 alt="About Picture"
               />
             </div>
             <div class="col-md-7">
-              <div class="about-desc">
+              <div class="about-desc wow fadeInUp">
                 <div class="about-desc-content">
                   <h1 class="font-weight-light">I'm Elizabeth</h1>
                   <p class="mt-3 font-weight-light">
@@ -548,7 +546,7 @@
             <h2>My Works</h2>
           </div>
         </div>
-        <div class="container swiper-container swiper-portfolio">
+        <div class="container swiper-container swiper-portfolio wow fadeInUp">
           <div class=" swiper-wrapper mt-5 ">
             <div
               class="portfolio-item swiper-slide "
@@ -798,7 +796,7 @@
           </div>
           <div class="row mt-4 pt-4">
             <div class="col-lg-12">
-              <div class="swiper-container swiper-testimony">
+              <div class="swiper-container swiper-testimony wow fadeInUp">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide single-testimonials ">
                     <div
@@ -919,10 +917,14 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <div class="section-head ">
+              <div class="section-head wow fadeInUp" data-wow-duration="1.5s">
                 <h2>Let's work together!</h2>
               </div>
-              <div class="mt-5">
+              <div
+                class="mt-5 wow fadeInUp"
+                data-wow-duration="1.5s"
+                data-wow-delay=".2s"
+              >
                 <a href="#" class="btn hover-state">Hire Me!</a>
               </div>
             </div>
@@ -1166,7 +1168,8 @@
               <div class="row">
                 <div class="col-sm-6 col-lg-6">
                   <div
-                    class="contact-details--panel p-4 b-box text-center hover-state"
+                    class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
+                    data-wow-duration="1.5s"
                   >
                     <div class="mb-3">
                       <i class="fas fa-mobile-alt  "></i>
@@ -1179,7 +1182,9 @@
                 </div>
                 <div class="col-sm-6 col-lg-6">
                   <div
-                    class="contact-details--panel p-4 b-box text-center hover-state"
+                    class="contact-details--panel p-4 b-box text-center hover-state wow fadeInUp"
+                    data-wow-duration="1.5s"
+                    data-wow-delay=".2s"
                   >
                     <div class="mb-3">
                       <i class="fas fa-envelope  "></i>
@@ -1199,7 +1204,10 @@
                 <h5 class="section-subHead mb-2">Contact Form</h5>
                 <div class="row">
                   <div class="col-lg-6">
-                    <div class="form-group mt-3">
+                    <div
+                      class="form-group mt-3 wow fadeInUp"
+                      data-wow-duration="1.5s"
+                    >
                       <input
                         name="name"
                         id="name"
@@ -1211,7 +1219,11 @@
                     </div>
                   </div>
                   <div class="col-lg-6">
-                    <div class="form-group mt-3">
+                    <div
+                      class="form-group mt-3 wow fadeInUp"
+                      data-wow-duration="1.5s"
+                      data-wow-delay=".2s"
+                    >
                       <input
                         name="email"
                         id="email"
@@ -1225,7 +1237,11 @@
                 </div>
                 <div class="row">
                   <div class="col-lg-12">
-                    <div class="form-group mt-3">
+                    <div
+                      class="form-group mt-3 wow fadeInUp"
+                      data-wow-duration="1.5s"
+                      data-wow-delay=".2s"
+                    >
                       <input
                         type="text"
                         class="form-control b-box"
@@ -1238,7 +1254,11 @@
                 </div>
                 <div class="row">
                   <div class="col-lg-12">
-                    <div class="form-group mt-3">
+                    <div
+                      class="form-group mt-3 wow fadeInUp"
+                      data-wow-duration="1.5s"
+                      data-wow-delay=".2s"
+                    >
                       <textarea
                         name="comments"
                         id="comments"
@@ -1250,7 +1270,11 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-lg-12 text-center mt-4 mb-5 ">
+                  <div
+                    class="col-lg-12 text-center mt-4 mb-5  wow fadeInUp"
+                    data-wow-duration="1.5s"
+                    data-wow-delay=".5s"
+                  >
                     <a href="#" class="btn hover-state">Submit</a>
                   </div>
                 </div>
@@ -1277,12 +1301,15 @@
     <script src="assets/js/vendor.js"></script>
 
     <!-- Map -->
-    <script src="assets/js/map.js"></script>
+    <!-- <script src="assets/js/map.js"></script> -->
     <!-- <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD79MY72taVRlZVX2DU6L5PXOh3ezUUKMc&amp;callback=initMap"
       async=""
       defer=""
     ></script> -->
+    <!-- Particles js -->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/particlesjs-config-4.js"></script>
 
     <!-- Custom Js -->
     <script src="assets/js/custom.js"></script>

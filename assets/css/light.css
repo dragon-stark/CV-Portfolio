@@ -1,4 +1,14 @@
 /*-----------------
+* [Master Stylesheet]
+*
+* Theme    : Bumblebee
+* Version  : 1.0
+* Author   : beingeorge
+* Support  : hello@beingeorge.com
+*
+------------------*/
+
+/*-----------------
   [ALL CONTENTS]
 
 1. Reset.css
@@ -133,7 +143,7 @@ section {
 }
 body {
   font: 400 16px/1.8 "Poppins", sans-serif;
-  color: #444444;
+  color: #333;
   overflow-x: hidden;
   /*background-color: #E1E6EC;*/
 }
@@ -164,7 +174,7 @@ table {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  background: #ffffff;
+  background: #fff;
 }
 
 ::selection {
@@ -204,7 +214,7 @@ a:active {
 }
 
 p {
-  color: #444444;
+  color: #5f6f81;
   font-weight: 300;
 }
 
@@ -216,7 +226,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
-  color: #444444;
+  color: #333;
   font-weight: 300;
 }
 
@@ -274,7 +284,7 @@ strong {
 .section {
   padding: 60px 0;
   position: relative;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .section .container {
@@ -282,7 +292,7 @@ strong {
 }
 
 .text-custom {
-  color: #f3afa8 !important;
+  color: #30b6e4 !important;
 }
 
 .h-100vh {
@@ -295,7 +305,7 @@ strong {
   font-weight: 400;
   transition: all 0.5s;
   letter-spacing: 2px;
-  color: #ffffff;
+  color: #fff;
   box-shadow: none;
   text-transform: uppercase;
   outline: none !important;
@@ -305,7 +315,7 @@ strong {
   min-width: 140px;
 }
 .btn:hover {
-  color: #ffffff;
+  color: #fff;
   box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
 }
 
@@ -320,7 +330,7 @@ strong {
 }
 
 .b-box {
-  background: #ffffff;
+  background: #fff;
   border-radius: 5px;
   overflow: hidden;
   border: 1px solid #eee;
@@ -344,7 +354,7 @@ strong {
   right: 0;
   width: 50%;
   height: 100%;
-  background: #f6f3f3;
+  background: #fbd0a1;
 }
 
 .section-head {
@@ -366,11 +376,11 @@ strong {
 }
 
 .section-light {
-  background: #ffffff;
+  background: #fff;
 }
 
 .section-dark {
-  background: #f5f6f7;
+  background: #f7f7f7;
 }
 
 .section-light .b-box {
@@ -378,7 +388,7 @@ strong {
 }
 
 .section-dark .b-box {
-  background: #ffffff;
+  background: #fff;
 }
 
 .section-subHead {
@@ -388,19 +398,19 @@ strong {
 }
 
 .badge-dark {
-  background: #ecdbdd;
-  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
+  background: #fa1f55;
+  background: -moz-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #ecdbdd),
-    color-stop(100%, #fcf4f3)
+    color-stop(0%, #fa1f55),
+    color-stop(100%, #e6f1ef)
   );
-  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: -o-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#fcf4f3', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: -o-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: -ms-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr=' #e6f1ef', GradientType=1 );
 }
 
 /* ----------------------------------------------
@@ -415,7 +425,7 @@ strong {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,8 +491,8 @@ strong {
 }
 
 .nav-wrapper .navbar {
-  background: #e6f1ef;
-  box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+  background: #2a2d35;
+  /*box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);*/
   transition: all 750ms cubic-bezier(0.8, 0, 0.55, 0.94);
   padding-bottom: 40px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -505,7 +515,7 @@ strong {
   letter-spacing: 2px;
   position: relative;
   display: inline-block;
-  color: #444444;
+  color: #fff;
   text-transform: uppercase;
   padding-left: 5px;
   opacity: 0.4;
@@ -523,7 +533,7 @@ strong {
   right: 0;
   width: 100%;
   height: 0;
-  background: #f6f3f3;
+  background: #fbd0a1;
   bottom: 20px;
   z-index: -1;
   opacity: 0;
@@ -572,19 +582,19 @@ strong {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ecdbdd;
-  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
+  background: #fa1f55;
+  background: -moz-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #ecdbdd),
-    color-stop(100%, #fcf4f3)
+    color-stop(0%, #fa1f55),
+    color-stop(100%, #e6f1ef)
   );
-  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: -o-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#fcf4f3', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: -o-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: -ms-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr=' #e6f1ef', GradientType=1 );
 }
 
 .aside-footer ul {
@@ -592,7 +602,7 @@ strong {
 }
 
 .aside-footer a {
-  color: #ffffff;
+  color: #fff;
   height: 30px;
   width: 30px;
   display: block;
@@ -620,7 +630,7 @@ strong {
   overflow: hidden;
   font-size: 12vh;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -677,7 +687,7 @@ strong {
   width: 50px;
   height: 3px;
   border-radius: 1px;
-  background: #ffffff;
+  background: #fff;
   transition: 1s;
 }
 
@@ -701,7 +711,7 @@ strong {
   height: 30px;
   width: 30px;
   top: 15px;
-  background: #ffffff;
+  background: #fff;
   border-radius: 50px;
   box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -723,7 +733,7 @@ strong {
 .about-avatar img {
   height: 160px;
   width: 160px;
-  border: 2px outset #ecdbdd;
+  border: 2px outset #ed4242;
   padding: 10px;
 }
 
@@ -756,7 +766,7 @@ strong {
 .about-desc-info span,
 .about-desc-info a {
   font-size: 14px;
-  color: #2a2d35;
+  color: #5f6f81;
 }
 
 .about-desc-info a {
@@ -768,7 +778,7 @@ strong {
 }
 
 .img-thumbnail {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
@@ -781,9 +791,9 @@ strong {
 }
 
 .filter a.active {
-  background: #ffffff;
-  border-color: #f6f3f3;
-  color: #444444;
+  background: #fff;
+  border-color: #fbd0a1;
+  color: #333;
 }
 
 .filter a {
@@ -792,7 +802,7 @@ strong {
   cursor: pointer;
   text-transform: capitalize;
   border-bottom: 4px solid transparent;
-  color: #f5f6f7 !important;
+  color: #5f6f81 !important;
 }
 
 .portfolio-item {
@@ -929,7 +939,7 @@ strong {
 }
 
 .section-freelance h2 {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* ----------------------------------------------
@@ -942,19 +952,19 @@ strong {
 }
 
 .progress-bar {
-  background: #ecdbdd;
-  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
+  background: #fa1f55;
+  background: -moz-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #ecdbdd),
-    color-stop(100%, #fcf4f3)
+    color-stop(0%, #fa1f55),
+    color-stop(100%, #e6f1ef)
   );
-  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: -o-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  background: linear-gradient(45deg, #ecdbdd 0%, #fcf4f3 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#fcf4f3', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: -o-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: -ms-linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  background: linear-gradient(45deg, #fa1f55 0%, #e6f1ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr=' #e6f1ef', GradientType=1 );
   opacity: 0.8;
 }
 
@@ -1069,7 +1079,7 @@ strong {
 .contact-details--panel a {
   font-size: 18px;
   font-weight: 500;
-  color: #444444;
+  color: #333;
   text-decoration: underline;
 }
 
