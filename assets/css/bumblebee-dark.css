@@ -1,12 +1,5 @@
 /*-----------------
 * [Master Stylesheet]
-*
-* Theme    : Bumblebee
-* Version  : 1.0
-* Author   : beingeorge
-* Support  : hello@beingeorge.com
-*
-------------------*/
 
 /*-----------------
   [ALL CONTENTS]
@@ -921,7 +914,7 @@ strong {
 /* ---------------------------------------------- */
 
 .section-freelance {
-  background: url(../images/mountains-at-dawn.jpg);
+  background: url(../images/freelance.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
