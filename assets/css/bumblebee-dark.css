@@ -1,16 +1,19 @@
 /*-----------------
 * [Master Stylesheet]
 *
+* Theme    : Bumblebee
+* Version  : 1.0
+* Author   : beingeorge
 * Support  : hello@beingeorge.com
-*
+* 
 ------------------*/
 
 /*-----------------
   [ALL CONTENTS]
 
 1. Reset.css
-2. General
-3. Helper Classes
+2. General 
+3. Helper Classes 
 4. Preloader
 5. Header
 6. About
@@ -21,7 +24,7 @@
 11. Testimony
 12. Blog
 13. Contact
-14. Footer
+14. Footer 
 15. All Media Queries
 
 ------------------*/
@@ -274,8 +277,8 @@ strong {
   font-weight: 500;
 }
 
-/* ----------------------------------------------
-* 3. Helper Classes
+/* ---------------------------------------------- 
+* 3. Helper Classes 
 /* ---------------------------------------------- */
 
 .section {
@@ -306,7 +309,7 @@ strong {
   box-shadow: none;
   text-transform: uppercase;
   outline: none !important;
-  background-color: #fd735a;
+  background-color: #c6e2ff;
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   min-width: 140px;
@@ -395,22 +398,22 @@ strong {
 }
 
 .badge-dark {
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+  background: #c6e2ff;
+  background: -moz-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
+    color-stop(0%, #c6e2ff),
+    color-stop(100%, #c6e2ff)
   );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: -o-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: -ms-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e2ff', endColorstr='#fd735a', GradientType=1 );
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 4. Preloader
 /* ---------------------------------------------- */
 
@@ -443,7 +446,7 @@ strong {
   color: #fff !important;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 5. Header
 /* ---------------------------------------------- */
 
@@ -583,19 +586,19 @@ strong {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+  background: #c6e2ff;
+  background: -moz-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
+    color-stop(0%, #c6e2ff),
+    color-stop(100%, #c6e2ff)
   );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: -o-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: -ms-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e2ff', endColorstr='#fd735a', GradientType=1 );
 }
 
 .aside-footer ul {
@@ -609,7 +612,7 @@ strong {
   display: block;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 6. Home
 /* ---------------------------------------------- */
 
@@ -727,7 +730,7 @@ strong {
   left: 50%;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 6. About
 /* ---------------------------------------------- */
 
@@ -783,7 +786,7 @@ strong {
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 7. Portfolio
 /* ---------------------------------------------- */
 
@@ -882,7 +885,7 @@ strong {
   background: #fff;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 8. Services
 /* ---------------------------------------------- */
 
@@ -913,7 +916,7 @@ strong {
   font-weight: 500;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 9. Freelance
 /* ---------------------------------------------- */
 
@@ -943,7 +946,7 @@ strong {
   color: #fff;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 10. Resume
 /* ---------------------------------------------- */
 
@@ -957,23 +960,23 @@ strong {
 }
 
 .progress-bar {
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+  background: #c6e2ff;
+  background: -moz-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
+    color-stop(0%, #c6e2ff),
+    color-stop(100%, #c6e2ff)
   );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: -o-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: -ms-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e2ff', endColorstr='#fd735a', GradientType=1 );
   opacity: 0.8;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 11. Testimony
 /* ---------------------------------------------- */
 
@@ -1000,7 +1003,7 @@ strong {
   padding-top: 20px;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 12. Blog
 /* ---------------------------------------------- */
 
@@ -1064,7 +1067,7 @@ strong {
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 13. Contact
 /* ---------------------------------------------- */
 
@@ -1102,7 +1105,7 @@ strong {
   margin: 0;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 14. Footer
 /* ---------------------------------------------- */
 
@@ -1111,7 +1114,7 @@ strong {
   padding: 50px;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 15. All Media Queries
 /* ---------------------------------------------- */
 

@@ -1,16 +1,19 @@
 /*-----------------
 * [Master Stylesheet]
 *
+* Theme    : Bumblebee
+* Version  : 1.0
+* Author   : beingeorge
 * Support  : hello@beingeorge.com
-*
+* 
 ------------------*/
 
 /*-----------------
   [ALL CONTENTS]
 
 1. Reset.css
-2. General
-3. Helper Classes
+2. General 
+3. Helper Classes 
 4. Preloader
 5. Header
 6. About
@@ -21,7 +24,7 @@
 11. Testimony
 12. Blog
 13. Contact
-14. Footer
+14. Footer 
 15. All Media Queries
 
 ------------------*/
@@ -140,7 +143,7 @@ section {
 }
 body {
   font: 400 16px/1.8 "Poppins", sans-serif;
-  color: #dedde0;
+  color: #333;
   overflow-x: hidden;
   /*background-color: #E1E6EC;*/
 }
@@ -211,7 +214,7 @@ a:active {
 }
 
 p {
-  color: #dedde0;
+  color: #5f6f81;
   font-weight: 300;
 }
 
@@ -223,7 +226,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
-  color: #fff;
+  color: #333;
   font-weight: 300;
 }
 
@@ -274,14 +277,14 @@ strong {
   font-weight: 500;
 }
 
-/* ----------------------------------------------
-* 3. Helper Classes
+/* ---------------------------------------------- 
+* 3. Helper Classes 
 /* ---------------------------------------------- */
 
 .section {
   padding: 60px 0;
   position: relative;
-  background-color: #2a2d35;
+  background-color: #f2ede8;
 }
 
 .section .container {
@@ -306,7 +309,7 @@ strong {
   box-shadow: none;
   text-transform: uppercase;
   outline: none !important;
-  background-color: #fd735a;
+  background-color: #e6f1ef;
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   min-width: 140px;
@@ -323,14 +326,14 @@ strong {
 .page-content-wrap {
   margin-left: 50%;
   width: 50%;
-  background: #f8fafb;
+  background: #f6f3f3;
 }
 
 .b-box {
-  background: #25252d;
+  background: #f6f3f3;
   border-radius: 5px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid #eee;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -ms-transition: all 0.3s ease-in-out 0s;
@@ -351,7 +354,7 @@ strong {
   right: 0;
   width: 50%;
   height: 100%;
-  background: #fbd0a1;
+  background: #717c73;
 }
 
 .section-head {
@@ -373,19 +376,19 @@ strong {
 }
 
 .section-light {
-  background: #2a2d35;
+  background: #fff;
 }
 
 .section-dark {
-  background: #25252d;
+  background: #f5f6f7;
 }
 
 .section-light .b-box {
-  background: #25252d;
+  background: #f6f3f3;
 }
 
 .section-dark .b-box {
-  background: #2a2d35;
+  background: #fff;
 }
 
 .section-subHead {
@@ -395,22 +398,22 @@ strong {
 }
 
 .badge-dark {
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+  background: #ecdbdd;
+  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #e39f94 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
+    color-stop(0%, #ecdbdd),
+    color-stop(100%, #e39f94)
   );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #e39f94 100%);
+  background: -o-linear-gradient(45deg, #ecdbdd 0%, #e39f94 100%);
+  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #e39f94 100%);
+  background: linear-gradient(45deg, #ecdbdd 0%, #e39f94 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#e39f94', GradientType=1 );
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 4. Preloader
 /* ---------------------------------------------- */
 
@@ -422,7 +425,7 @@ strong {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background-color: #2a2d35;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -439,11 +442,7 @@ strong {
   visibility: hidden;
 }
 
-.text-dark {
-  color: #fff !important;
-}
-
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 5. Header
 /* ---------------------------------------------- */
 
@@ -465,7 +464,7 @@ strong {
 .line {
   fill: none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke: #fff;
+  stroke: #000;
   stroke-width: 3.5;
   stroke-linecap: round;
 }
@@ -492,8 +491,8 @@ strong {
 }
 
 .nav-wrapper .navbar {
-  background: #2a2d35;
-  /*box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);*/
+  background: #e6f1ef;
+  box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
   transition: all 750ms cubic-bezier(0.8, 0, 0.55, 0.94);
   padding-bottom: 40px;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -516,7 +515,7 @@ strong {
   letter-spacing: 2px;
   position: relative;
   display: inline-block;
-  color: #fff;
+  color: #444444;
   text-transform: uppercase;
   padding-left: 5px;
   opacity: 0.4;
@@ -534,7 +533,7 @@ strong {
   right: 0;
   width: 100%;
   height: 0;
-  background: #fbd0a1;
+  background: #f6f3f3;
   bottom: 20px;
   z-index: -1;
   opacity: 0;
@@ -583,19 +582,19 @@ strong {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+  background: #ecdbdd;
+  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
+    color-stop(0%, #ecdbdd),
+    color-stop(100%, #f6f3f3)
   );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: -o-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#f6f3f3', GradientType=1 );
 }
 
 .aside-footer ul {
@@ -609,7 +608,7 @@ strong {
   display: block;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 6. Home
 /* ---------------------------------------------- */
 
@@ -631,7 +630,7 @@ strong {
   overflow: hidden;
   font-size: 12vh;
   text-align: center;
-  color: #fff;
+  color: #f6f3f3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -721,20 +720,20 @@ strong {
 .switcher a:after {
   position: absolute;
   content: "";
-  background: #2b2e36;
+  background: #3d3f44;
   height: 100%;
   width: 100%;
   left: 50%;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 6. About
 /* ---------------------------------------------- */
 
 .about-avatar img {
   height: 160px;
   width: 160px;
-  border: 2px outset #ed4242;
+  border: 2px outset #ecdbdd;
   padding: 10px;
 }
 
@@ -767,7 +766,7 @@ strong {
 .about-desc-info span,
 .about-desc-info a {
   font-size: 14px;
-  color: #dedde0;
+  color: #5d5f61;
 }
 
 .about-desc-info a {
@@ -779,11 +778,11 @@ strong {
 }
 
 .img-thumbnail {
-  background-color: #25252d;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #fff;
+  border: 1px solid #dee2e6;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 7. Portfolio
 /* ---------------------------------------------- */
 
@@ -793,8 +792,8 @@ strong {
 
 .filter a.active {
   background: #fff;
-  border-color: #fbd0a1;
-  color: #dedde0;
+  border-color: #f0d2b3;
+  color: #333;
 }
 
 .filter a {
@@ -803,7 +802,7 @@ strong {
   cursor: pointer;
   text-transform: capitalize;
   border-bottom: 4px solid transparent;
-  color: #5f6f81 !important;
+  color: #686e75 !important;
 }
 
 .portfolio-item {
@@ -879,10 +878,10 @@ strong {
 }
 
 .swiper-pagination-bullet {
-  background: #fff;
+  background-color: #393b3f;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 8. Services
 /* ---------------------------------------------- */
 
@@ -913,7 +912,7 @@ strong {
   font-weight: 500;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 9. Freelance
 /* ---------------------------------------------- */
 
@@ -934,7 +933,7 @@ strong {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #2a2d35;
+  background: #f6f3f3;
   z-index: -1;
   opacity: 0.8;
 }
@@ -943,7 +942,7 @@ strong {
   color: #fff;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 10. Resume
 /* ---------------------------------------------- */
 
@@ -952,28 +951,24 @@ strong {
   font-weight: 500;
 }
 
-.progress {
-  background-color: #2a2d35;
-}
-
 .progress-bar {
-  background: #fa1f55;
-  background: -moz-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
+  background: #ecdbdd;
+  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #ecdbdd 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #fa1f55),
-    color-stop(100%, #fd735a)
+    color-stop(0%, #ecdbdd),
+    color-stop(100%, #ecdbdd)
   );
-  background: -webkit-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -o-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: -ms-linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  background: linear-gradient(45deg, #fa1f55 0%, #fd735a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa1f55', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #ecdbdd 100%);
+  background: -o-linear-gradient(45deg, #ecdbdd 0%, #ecdbdd 100%);
+  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #ecdbdd 100%);
+  background: linear-gradient(45deg, #ecdbdd 0%, #ecdbdd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#ecdbdd', GradientType=1 );
   opacity: 0.8;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 11. Testimony
 /* ---------------------------------------------- */
 
@@ -1000,7 +995,7 @@ strong {
   padding-top: 20px;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 12. Blog
 /* ---------------------------------------------- */
 
@@ -1064,7 +1059,7 @@ strong {
   transition: all 0.3s ease-in-out 0s;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 13. Contact
 /* ---------------------------------------------- */
 
@@ -1075,7 +1070,6 @@ strong {
 .contact-map--container {
   height: 450px;
   overflow: hidden;
-  background-color: transparent !important;
 }
 
 .contact-details--panel i {
@@ -1085,7 +1079,7 @@ strong {
 .contact-details--panel a {
   font-size: 18px;
   font-weight: 500;
-  color: #dedde0;
+  color: #333;
   text-decoration: underline;
 }
 
@@ -1102,7 +1096,7 @@ strong {
   margin: 0;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 14. Footer
 /* ---------------------------------------------- */
 
@@ -1111,7 +1105,7 @@ strong {
   padding: 50px;
 }
 
-/* ----------------------------------------------
+/* ---------------------------------------------- 
 * 15. All Media Queries
 /* ---------------------------------------------- */
 
@@ -1216,5 +1210,9 @@ strong {
 
   .about-social li {
     margin-bottom: 15px;
+  }
+
+  .home-pagination .swiper-pagination-bullet {
+    width: 30px;
   }
 }
