@@ -167,7 +167,7 @@ table {
 body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  background: #fff;
+  background: #ffffff;
 }
 
 ::selection {
@@ -277,7 +277,7 @@ strong {
 .section {
   padding: 60px 0;
   position: relative;
-  background-color: #f2ede8;
+  background-color: #ffffff;
 }
 
 .section .container {
@@ -369,7 +369,7 @@ strong {
 }
 
 .section-light {
-  background: #fff;
+  background: #ffffff;
 }
 
 .section-dark {
@@ -418,7 +418,7 @@ strong {
   bottom: 0;
   height: 100%;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -608,7 +608,7 @@ strong {
 .section-home {
   height: 100vh;
   position: relative;
-  background-image: url("../images/banner.jpg");
+  background-image: url("../images/snow-capped-mountains-under-the-cloudy-skies-1054289.jpg.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -784,7 +784,7 @@ strong {
 }
 
 .filter a.active {
-  background: #fff;
+  background: #ffffff;
   border-color: #f0d2b3;
   color: #333;
 }
@@ -910,7 +910,7 @@ strong {
 /* ---------------------------------------------- */
 
 .section-freelance {
-  background: url(../images/freelance.jpg);
+  background: url(../images/snowy-summit.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
