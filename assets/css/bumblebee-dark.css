@@ -302,7 +302,7 @@ strong {
   box-shadow: none;
   text-transform: uppercase;
   outline: none !important;
-  background-color: #c6e2ff;
+  background-color: #e6f1ef;
   box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   min-width: 140px;
@@ -391,19 +391,19 @@ strong {
 }
 
 .badge-dark {
-  background: #c6e2ff;
-  background: -moz-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
+  background: #e6f1ef;
+  background: -moz-linear-gradient(45deg, #e6f1ef 0%, #e6f1ef 100%);
   background: -webkit-gradient(
     left bottom,
     right top,
-    color-stop(0%, #c6e2ff),
-    color-stop(100%, #c6e2ff)
+    color-stop(0%, #e6f1ef),
+    color-stop(100%, #e6f1ef)
   );
-  background: -webkit-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
-  background: -o-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
-  background: -ms-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
-  background: linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e2ff', endColorstr='#fd735a', GradientType=1 );
+  background: -webkit-linear-gradient(45deg, #e6f1ef 0%, #e6f1ef 100%);
+  background: -o-linear-gradient(45deg, #e6f1ef 0%, #e6f1ef 100%);
+  background: -ms-linear-gradient(45deg, #e6f1ef 0%, #e6f1ef 100%);
+  background: linear-gradient(45deg, #e6f1ef 0%, #e6f1ef 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f1ef', endColorstr='#fd735a', GradientType=1 );
 }
 
 /* ----------------------------------------------
@@ -579,7 +579,7 @@ strong {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #c6e2ff;
+  background: #e6f1ef;
   background: -moz-linear-gradient(45deg, #c6e2ff 0%, #c6e2ff 100%);
   background: -webkit-gradient(
     left bottom,
