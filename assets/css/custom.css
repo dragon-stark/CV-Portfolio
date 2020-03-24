@@ -721,11 +721,11 @@ strong {
 /* ----------------------------------------------
 * 6. About
 /* ---------------------------------------------- */
-/*
+/* /* */
 .about-avatar img {
   height: 160px;
   width: 160px;
-  border: 2px outset #ecdbdd;
+  border: 1px outset #ffffff
   padding: 10px;
 }
 

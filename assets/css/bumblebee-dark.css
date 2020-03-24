@@ -730,7 +730,7 @@ strong {
 .about-avatar img {
   height: 160px;
   width: 160px;
-  border: 2px outset #ed4242;
+  border: 1px outset #ed424238;
   padding: 10px;
 }
 
