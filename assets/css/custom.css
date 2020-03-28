@@ -120,7 +120,7 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
+/* article,
 aside,
 details,
 figcaption,
@@ -136,9 +136,9 @@ section {
 body {
   font: 400 16px/1.8 "Poppins", sans-serif;
   color: #333;
-  overflow-x: hidden;
-  /*background-color: #E1E6EC;*/
-}
+  overflow-x: hidden; */
+/*background-color: #E1E6EC;*/
+/* }
 ol,
 ul {
   list-style: none;
@@ -157,7 +157,7 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-} */
+}  */
 
 /* ---------------------------------------------- /*
 * 2. General
@@ -272,7 +272,6 @@ strong {
 /* ----------------------------------------------
 * 3. Helper Classes
 /* ---------------------------------------------- */
-
 
 /* .section {
   padding: 60px 0;
