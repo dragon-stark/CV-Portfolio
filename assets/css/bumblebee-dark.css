@@ -136,7 +136,7 @@ section {
 }
 body {
   font: 400 16px/1.8 "Poppins", sans-serif;
-  color: #dedde0;
+  color: #ffffff;
   overflow-x: hidden;
   /*background-color: #E1E6EC;*/
 }
@@ -207,7 +207,7 @@ a:active {
 }
 
 p {
-  color: #dedde0;
+  color: #ffffff;
   font-weight: 300;
 }
 
@@ -763,7 +763,7 @@ strong {
 .about-desc-info span,
 .about-desc-info a {
   font-size: 14px;
-  color: #dedde0;
+  color: #ffffff;
 }
 
 .about-desc-info a {
@@ -790,7 +790,7 @@ strong {
 .filter a.active {
   background: #fff;
   border-color: #fbd0a1;
-  color: #dedde0;
+  color: #ffffff;
 }
 
 .filter a {
