@@ -223,7 +223,9 @@ table {
   margin-bottom: 30px;
   filter: grayscale(90%);
 }
-
+.blog-cat {
+  color: gray;
+}
 /* body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
