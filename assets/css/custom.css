@@ -184,7 +184,7 @@ table {
 .mongodb,
 .firebase {
   align-content: center;
-  opacity: 60%;
+  /* opacity: 60%; */
   margin-top: 30px;
   height: 90px;
   width: auto;
@@ -195,7 +195,7 @@ table {
 }
 .mern {
   align-content: center;
-  opacity: 90%;
+  /* opacity: 90%; */
   height: 90px;
   width: auto;
   padding: 0 10px;
@@ -215,7 +215,7 @@ table {
 } */
 .npm {
   align-content: center;
-  opacity: 60%;
+  /* opacity: 60%; */
   height: 50px;
   width: auto;
   padding: 0 10px;
