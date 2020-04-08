@@ -340,10 +340,11 @@ strong {
   padding: 60px 0;
   position: relative;
   background-color: #f2ede8;
-}
-
+/* } */
 .section .container {
   padding: 0 30px;
+
+  flex-wrap: row;
 }
 
 .text-custom {
@@ -1164,8 +1165,9 @@ strong {
 * 15. All Media Queries
 /* ---------------------------------------------- */
 
-/* @media (max-width: 991px) {
+@media (max-width: 991px) {
   .container {
+    flex-direction: row;
     max-width: 100%;
   }
 
@@ -1270,4 +1272,4 @@ strong {
   .home-pagination .swiper-pagination-bullet {
     width: 30px;
   }
-/* } */
+ }
