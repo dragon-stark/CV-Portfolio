@@ -347,7 +347,7 @@ strong {
 .section .container {
   padding: 0 30px;
 justify-content: space-around ;
-  flex-wrap: row;
+  /* flex-wrap: row; */
 }
 
 .text-custom {
@@ -839,7 +839,7 @@ justify-content: space-around ;
 .img-thumbnail {
   background-color: #fff;
   border: 1px solid #dee2e6;
-}  */
+}
 
 /* ----------------------------------------------
 * 7. Portfolio
@@ -1058,6 +1058,9 @@ justify-content: space-around ;
 * 12. Blog
 /* ----------------------------------------------
 /*  */
+}
+.container .portfolio-page{
+  justify-content: space-between;
 }
 .outer-container{
    justify-content: space-around;
