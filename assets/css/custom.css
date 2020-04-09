@@ -225,8 +225,9 @@ table {
 }
 .blog-cat {
   color: gray;
+  size: 80px;
 }
-/* body {
+body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   background: #fff;
@@ -298,6 +299,7 @@ h3 {
   font-size: 24px;
   letter-spacing: 1px;
   margin: 0 0 5px;
+  text-align: center;
 }
 
 h4 {
@@ -330,7 +332,7 @@ textarea {
 b,
 strong {
   font-weight: 500;
-} */
+}
 
 /* ----------------------------------------------
 * 3. Helper Classes
@@ -1050,24 +1052,45 @@ justify-content: space-around ;
 
 .swiper-container {
   padding-top: 20px;
-} */
+} ,
 
 /* ----------------------------------------------
 * 12. Blog
-/* ---------------------------------------------- */
-/*
+/* ----------------------------------------------
+/*  */
+}
+.outer-container{
+   justify-content: space-around;
+
+}
+.col-12 .col-md-6 .col-lg-4 {
+  justify-items: space-around;
+  justify-content: space-between;
+  margin: 25px;
+}
+.card .h-100 {
+  justify-self: space-around;
+  margin: 25%;
+  justify-self: flex-start;
+/* padding: 25px; */
+
+}
 .blog-list {
   max-width: 350px;
+  /* justify-self: flex-start; */
+  justify-items: space-around;
 }
 
 .blog-list--img {
-  position: relative;
+  /* margin-top: 25px; */
+  position: absolute;
 }
 
-.blog-list--img img {
-  height: 300px;
+.list--img img {
+  height: 100%;
   object-fit: cover;
   width: 100%;
+  opacity: 60%;
 }
 
 .blog-list--desc h3 {
@@ -1076,7 +1099,7 @@ justify-content: space-around ;
 }
 
 .blog-list--details {
-  position: absolute;
+  /* position: absolute; */
   left: 0;
   right: 0;
   top: 0;
