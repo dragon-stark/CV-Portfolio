@@ -341,9 +341,10 @@ strong {
   position: relative;
   background-color: #f2ede8;
 /* } */
+
 .section .container {
   padding: 0 30px;
-
+justify-content: space-around ;
   flex-wrap: row;
 }
 
