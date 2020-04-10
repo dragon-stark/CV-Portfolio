@@ -1192,7 +1192,7 @@ justify-content: space-around ;
 * 15. All Media Queries
 /* ---------------------------------------------- */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .container {
     flex-direction: row;
     max-width: 100%;
@@ -1241,9 +1241,9 @@ justify-content: space-around ;
 
   .contact-details {
     padding-top: 30px;
-  }
+  } */
 
-  .section-resume .section-subHead { */
+  /* .section-resume .section-subHead { */ */
 /*padding-top: 30px;*/
 /* margin: 40px 0 20px !important;
   }
