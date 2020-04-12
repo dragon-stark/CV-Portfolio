@@ -225,7 +225,7 @@ table {
 }
 .blog-cat {
   color: gray;
-  size: 500px;
+  size: 108px;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -346,7 +346,7 @@ strong {
 
 .section .container {
   padding: 0 30px;
-  justify-content: space-around;
+justify-content: space-around ;
   /* flex-wrap: row; */
 }
 
@@ -399,7 +399,7 @@ strong {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   /*box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);*/
-  /* }
+/* }
 
 .hover-state:hover {
   transform: translateY(-5px);
@@ -472,11 +472,11 @@ strong {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#e39f94', GradientType=1 );
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 4. Preloader
 /* ---------------------------------------------- */
 
-  /* .preloader {
+/* .preloader {
   position: fixed;
   left: 0;
   right: 0;
@@ -501,11 +501,11 @@ strong {
   visibility: hidden;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 5. Header
 /* ---------------------------------------------- */
 
-  /* .ham {
+/* .ham {
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   transition: transform 400ms;
@@ -667,10 +667,10 @@ strong {
   display: block;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 6. Home
 /* ---------------------------------------------- */
-  /*
+/*
 .section-home {
   height: 100vh;
   position: relative;
@@ -785,11 +785,11 @@ strong {
   left: 50%;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 6. About
 /* ---------------------------------------------- */
-  /* /* */
-  /* .about-avatar img {
+/* /* */
+/* .about-avatar img {
   height: 160px;
   width: 160px;
   border: 1px outset #ffffff
@@ -844,7 +844,7 @@ strong {
 /* ----------------------------------------------
 * 7. Portfolio
 /* ---------------------------------------------- */
-  /*
+/*
 .filter {
   border-bottom: 1px solid #eee;
 }
@@ -940,11 +940,11 @@ strong {
   background-color: #393b3f;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 8. Services
 /* ---------------------------------------------- */
 
-  /* .services-list-icon {
+/* .services-list-icon {
   font-size: 30px;
   position: relative;
 }
@@ -971,11 +971,11 @@ strong {
   font-weight: 500;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 9. Freelance
 /* ---------------------------------------------- */
 
-  /* .section-freelance {
+/* .section-freelance {
   background: url(../images/freelance.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -1001,16 +1001,16 @@ strong {
   color: #fff;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 10. Resume
 /* ---------------------------------------------- */
 
-  /* .resume-list h5 {
+/* .resume-list h5 {
   font-size: 18px;
   font-weight: 500;
 } */
 
-  /* .progress-bar {
+/* .progress-bar {
   background: #ecdbdd;
   background: -moz-linear-gradient(45deg, #ecdbdd 0%, #ecdbdd 100%);
   background: -webkit-gradient(
@@ -1027,11 +1027,11 @@ strong {
   opacity: 0.8;
 } */
 
-  /* ----------------------------------------------
+/* ----------------------------------------------
 * 11. Testimony
 /* ---------------------------------------------- */
 
-  /* .single-testimonials {
+/* .single-testimonials {
   width: 100%;
 }
 
@@ -1059,11 +1059,12 @@ strong {
 /* ----------------------------------------------
 /*  */
 }
-.container .portfolio-page {
+.container .portfolio-page{
   justify-content: space-between;
 }
-.outer-container {
-  justify-content: space-around;
+.outer-container{
+   justify-content: space-around;
+
 }
 .col-12 .col-md-6 .col-lg-4 {
   justify-items: space-around;
@@ -1074,7 +1075,8 @@ strong {
   justify-self: space-around;
   margin: 25%;
   justify-self: flex-start;
-  /* padding: 25px; */
+/* padding: 25px; */
+
 }
 .blog-list {
   max-width: 350px;
@@ -1241,8 +1243,7 @@ strong {
     padding-top: 30px;
   } */
 
-/* .section-resume .section-subHead { */
-*/
+  /* .section-resume .section-subHead { */ */
 /*padding-top: 30px;*/
 /* margin: 40px 0 20px !important;
   }
@@ -1299,61 +1300,3 @@ strong {
     width: 30px;
   }
  }
-body{margin-top:20px;
-background:#eee;
-}
-
-/* ===========
-   Gallery
- =============*/
-.portfolioFilter a {
-  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  -moz-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s ease-out;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
-  color: #333333;
-  padding: 5px 10px;
-  display: inline-block;
-  transition: all 0.3s ease-out;
-}
-.portfolioFilter a:hover {
-  background-color: #228bdf;
-  color: #ffffff;
-}
-.portfolioFilter a.current {
-  background-color: #228bdf;
-  color: #ffffff;
-}
-.thumb {
-  background-color: #ffffff;
-  border-radius: 3px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-  margin-top: 30px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  width: 100%;
-}
-.thumb-img {
-  border-radius: 2px;
-  overflow: hidden;
-  width: 100%;
-}
-.gal-detail h4 {
-  margin: 16px auto 10px auto;
-  width: 80%;
-  white-space: nowrap;
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.gal-detail .ga-border {
-  height: 3px;
-  width: 40px;
-  background-color: #228bdf;
-  margin: 10px auto;
-}
