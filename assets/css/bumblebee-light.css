@@ -319,7 +319,7 @@ strong {
 .page-content-wrap {
   margin-left: 50%;
   width: 50%;
-  background: #f6f3f3;
+  background: #f7f7f7;
 }
 
 .b-box {
@@ -786,7 +786,7 @@ strong {
 
 .filter a.active {
   background: #ffffff;
-  border-color: #f0d2b3;
+  border-color: #f6f3f3;
   color: #333;
 }
 
