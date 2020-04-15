@@ -398,9 +398,48 @@ justify-content: space-around ;
   -ms-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-  /*box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);*/
-/* }
+  box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+ }
+.aside-footer ul {
+  padding: 25px;
+  color: #444444;
+}
 
+
+
+.aside-footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ecdbdd;
+  background: -moz-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, #ecdbdd),
+    color-stop(100%, #f6f3f3)
+  );
+  background: -webkit-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: -o-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: -ms-linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  background: linear-gradient(45deg, #ecdbdd 0%, #f6f3f3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ecdbdd', endColorstr='#f6f3f3', GradientType=1 );
+}
+
+.aside-footer ul {
+  padding: 25px;
+}
+
+.aside-footer a {
+  /* color: #fff; */
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+
+
+/*
 .hover-state:hover {
   transform: translateY(-5px);
   box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
@@ -665,7 +704,16 @@ justify-content: space-around ;
   height: 30px;
   width: 30px;
   display: block;
-} */
+}
+
+
+
+
+
+
+
+
+/* */
 
 /* ----------------------------------------------
 * 6. Home
