@@ -202,17 +202,9 @@ table {
   margin-top: 30px;
   margin-bottom: 30px;
   filter: grayscale(90%);
+    border-radius: 9%;
 }
-/* .mongodb {
-  align-content: center;
-  opacity: 60%;
-  margin-top: 30px;
-  height: 50px;
-  width: auto;
-  border-radius: 50%;
-  padding: 0 10px;
-  margin-bottom: 30px;
-} */
+
 .npm {
   align-content: center;
   /* opacity: 60%; */
