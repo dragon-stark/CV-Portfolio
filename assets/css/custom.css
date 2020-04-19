@@ -193,7 +193,7 @@ table {
   margin-bottom: 30px;
   filter: grayscale(90%);
 }
-.mern {
+.mern, .hubspot {
   align-content: center;
   /* opacity: 90%; */
   height: 90px;
