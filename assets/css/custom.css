@@ -1098,7 +1098,7 @@ justify-content: space-around ;
 * 12. Blog
 /* ----------------------------------------------
 /*  */
-}
+
 .container .portfolio-page{
   justify-content: space-between;
 }
@@ -1338,5 +1338,4 @@ justify-content: space-around ;
 
   .home-pagination .swiper-pagination-bullet {
     width: 30px;
-  }
- }
+   } */
