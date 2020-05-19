@@ -332,7 +332,7 @@ strong {
   -ms-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
-  /*box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);*/
+  box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
 }
 
 .hover-state:hover {
