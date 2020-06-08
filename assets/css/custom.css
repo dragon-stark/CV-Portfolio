@@ -193,7 +193,7 @@ table {
   margin-bottom: 30px;
   filter: grayscale(90%);
 }
-.mern, .hubspot {
+.mern, .hubspot, .shopify {
   align-content: center;
   /* opacity: 90%; */
   height: 80px;
