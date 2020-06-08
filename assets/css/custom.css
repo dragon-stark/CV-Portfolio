@@ -175,7 +175,6 @@ table {
 .html,
 .css,
 .JavaScript,
-.jQuery,
 .bootstrap,
 .nodeJS,
 .expressJS,
@@ -186,17 +185,18 @@ table {
   align-content: center;
   /* opacity: 60%; */
   margin-top: 30px;
-  height: 90px;
+  height: 111px;
   width: auto;
   border-radius: 50%;
   padding: 0 10px;
   margin-bottom: 30px;
   filter: grayscale(90%);
 }
-.mern, .hubspot, .shopify {
+.mern, .hubspot, .shopify, .adobe ,
+.jQuery{
   align-content: center;
   /* opacity: 90%; */
-  height: 80px;
+  height: 100px;
   width: auto;
   padding: 0 10px;
   margin-top: 30px;
