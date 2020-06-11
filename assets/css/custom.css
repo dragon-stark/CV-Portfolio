@@ -181,7 +181,7 @@ table {
 .MySQL,
 .React,
 .mongodb,
-.firebase {
+.firebase, .heroku {
   align-content: center;
   /* opacity: 60%; */
   margin-top: 30px;
