@@ -1,0 +1,15 @@
+{
+  "prettier.enableDebugLogs": true,
+  "rainbow_csv.enable_context_menu_head": true,
+  "rainbow_csv.enable_context_menu_tail": true,
+  "sqltools.connectionExplorer.groupConnected": true,
+  "sqltools.queryParams.enableReplace": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
+  "javascript.referencesCodeLens.enabled": false,
+  "prettyxml.settings.formatOnSave": true
+}
