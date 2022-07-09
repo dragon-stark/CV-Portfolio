@@ -11,5 +11,19 @@
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
   "javascript.inlayHints.functionLikeReturnTypes.enabled": false,
   "javascript.referencesCodeLens.enabled": false,
-  "prettyxml.settings.formatOnSave": true
+  "prettyxml.settings.formatOnSave": true,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.autoIndent": "brackets",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "window.autoDetectColorScheme": true,
+  "git.mergeEditor": true,
+  "html.format.indentInnerHtml": true,
+  "prettier.withNodeModules": true,
+  "rainbow_csv.csv_lint_detect_trailing_spaces": true
 }
