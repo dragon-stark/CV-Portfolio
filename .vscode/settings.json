@@ -25,5 +25,11 @@
   "git.mergeEditor": true,
   "html.format.indentInnerHtml": true,
   "prettier.withNodeModules": true,
-  "rainbow_csv.csv_lint_detect_trailing_spaces": true
+  "rainbow_csv.csv_lint_detect_trailing_spaces": true,
+  "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "diffEditor.codeLens": true,
+  "editor.formatOnSaveMode": "modificationsIfAvailable"
 }
