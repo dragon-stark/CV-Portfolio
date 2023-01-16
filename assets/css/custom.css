@@ -179,7 +179,7 @@ table {
 .nodeJS,
 .expressJS,
 .MySQL,
-.React, .Wordpress,
+.React, .salesforce, .Wordpress,
 .mongodb,
 .firebase, .heroku {
   align-content: center;
@@ -1283,7 +1283,7 @@ justify-content: space-around ;
     padding-top: 30px;
   } */
 
-  /* .section-resume .section-subHead { */ 
+  /* .section-resume .section-subHead { */
 /*padding-top: 30px;*/
 /* margin: 40px 0 20px !important;
   }
