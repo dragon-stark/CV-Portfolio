@@ -193,7 +193,7 @@ table {
   filter: grayscale(90%);
 }
 .mern, .hubspot, .shopify, .adobe ,
-.jQuery{
+.jQuery, .salesforce{
   align-content: center;
   /* opacity: 90%; */
   height: 100px;
@@ -202,7 +202,7 @@ table {
   margin-top: 30px;
   margin-bottom: 30px;
   filter: grayscale(90%);
-    border-radius: 9%;
+    border-radius: 8%;
 }
 
 .npm {
