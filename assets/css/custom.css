@@ -884,7 +884,12 @@ justify-content: space-around ;
 /* ----------------------------------------------
 * 7. Portfolio
 /* ---------------------------------------------- */
-/*
+
+.card-img-size {
+  width: 250px;
+  height: 250px;
+}
+
 .filter {
   border-bottom: 1px solid #eee;
 }
@@ -1115,7 +1120,7 @@ justify-content: space-around ;
   justify-self: space-around;
   margin: 25%;
   justify-self: flex-start;
-/* padding: 25px; */
+ padding: 25px;
 
 }
 .blog-list {
@@ -1125,7 +1130,7 @@ justify-content: space-around ;
 }
 
 .blog-list--img {
-  /* margin-top: 25px; */
+   margin-top: 25px;
   position: absolute;
 }
 
