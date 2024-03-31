@@ -1124,7 +1124,7 @@ justify-content: space-around ;
 
 }
 .blog-list {
-  max-width: 350px;
+  /* max-width: 350px; */
   /* justify-self: flex-start; */
   justify-items: space-around;
 }
