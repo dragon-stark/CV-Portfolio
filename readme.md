@@ -4,9 +4,6 @@
 A static portfolio page
 
 
-
-
-
 ##
 
 

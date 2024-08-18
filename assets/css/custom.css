@@ -134,7 +134,7 @@ section {
   display: block;
 } */
 /* body { */
-/* font: 400 16px/1.8 "Poppins", sans-serif; */
+/* font: 400 18px/1.8 "Poppins", sans-serif; */
 /* color: #333; */
 /* overflow-x: hidden;  */
 /*background-color: #E1E6EC;*/
@@ -179,9 +179,12 @@ table {
 .nodeJS,
 .expressJS,
 .MySQL,
-.React, .salesforce, .Wordpress,
+.React,
+.salesforce,
+.Wordpress,
 .mongodb,
-.firebase, .heroku {
+.firebase,
+.heroku {
   align-content: center;
   /* opacity: 60%; */
   margin-top: 30px;
@@ -192,8 +195,12 @@ table {
   margin-bottom: 30px;
   filter: grayscale(90%);
 }
-.mern, .hubspot, .openai, .adobe ,
-.jQuery, .salesforce{
+.mern,
+.hubspot,
+.openai,
+.adobe,
+.jQuery,
+.salesforce {
   align-content: center;
   /* opacity: 90%; */
   height: 100px;
@@ -202,7 +209,7 @@ table {
   margin-top: 30px;
   margin-bottom: 30px;
   filter: grayscale(90%);
-    border-radius: 8%;
+  border-radius: 8%;
 }
 
 .npm {
@@ -220,7 +227,7 @@ table {
   size: 108px;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   background: #fff;
 }
@@ -272,7 +279,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
   color: #333;
   font-weight: 300;
@@ -338,7 +345,7 @@ strong {
 
 .section .container {
   padding: 0 30px;
-justify-content: space-around ;
+  justify-content: space-around;
   /* flex-wrap: row; */
 }
 
@@ -391,13 +398,11 @@ justify-content: space-around ;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
   box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
- }
+}
 .aside-footer ul {
   padding: 25px;
   color: #444444;
 }
-
-
 
 .aside-footer {
   position: absolute;
@@ -429,7 +434,6 @@ justify-content: space-around ;
   width: 30px;
   display: block;
 }
-
 
 /*
 .hover-state:hover {
@@ -983,7 +987,8 @@ justify-content: space-around ;
 
 .swiper-pagination-bullet {
   background-color: #393b3f;
-} */
+}
+*/
 
 /* ----------------------------------------------
 * 8. Services
@@ -1104,12 +1109,11 @@ justify-content: space-around ;
 /* ----------------------------------------------
 /*  */
 
-.container .portfolio-page{
+.container .portfolio-page {
   justify-content: space-between;
 }
-.outer-container{
-   justify-content: space-around;
-
+.outer-container {
+  justify-content: space-around;
 }
 .col-12 .col-md-6 .col-lg-4 {
   justify-items: space-around;
@@ -1120,8 +1124,7 @@ justify-content: space-around ;
   justify-self: space-around;
   margin: 25%;
   justify-self: flex-start;
- padding: 25px;
-
+  padding: 25px;
 }
 .blog-list {
   /* max-width: 350px; */
@@ -1130,7 +1133,7 @@ justify-content: space-around ;
 }
 
 .blog-list--img {
-   margin-top: 25px;
+  margin-top: 25px;
   position: absolute;
 }
 
@@ -1288,7 +1291,7 @@ justify-content: space-around ;
     padding-top: 30px;
   } */
 
-  /* .section-resume .section-subHead { */
+/* .section-resume .section-subHead { */
 /*padding-top: 30px;*/
 /* margin: 40px 0 20px !important;
   }

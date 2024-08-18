@@ -22,7 +22,7 @@
 
 ------------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700');
 
 /* ---------------------------------------------- /*
 * 1. Reset.css
@@ -135,7 +135,7 @@ section {
   display: block;
 }
 body {
-  font: 400 16px/1.8 "Poppins", sans-serif;
+  font: 400 18px/1.8 'Poppins', sans-serif;
   color: #333;
   overflow-x: hidden;
   /*background-color: #E1E6EC;*/
@@ -152,7 +152,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -165,7 +165,7 @@ table {
 /* ---------------------------------------------- */
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   background: #ffffff;
 }
@@ -217,7 +217,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
   color: #333;
   font-weight: 300;
@@ -522,7 +522,7 @@ strong {
 
 .navbar-nav .nav-link:after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   right: 0;
   width: 100%;
@@ -609,7 +609,7 @@ strong {
 .section-home {
   height: 100vh;
   position: relative;
-  background-image: url("../images/snow-capped-mountains-under-the-cloudy-skies-1054289.jpg.jpg");
+  background-image: url('../images/snow-capped-mountains-under-the-cloudy-skies-1054289.jpg.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -634,7 +634,7 @@ strong {
 }
 
 .glass:after {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   display: flex;
@@ -713,7 +713,7 @@ strong {
 
 .switcher a:after {
   position: absolute;
-  content: "";
+  content: '';
   background: #3d3f44;
   height: 100%;
   width: 100%;
@@ -921,7 +921,7 @@ strong {
 }
 
 .section-freelance:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
